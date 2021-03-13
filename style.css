@@ -1,0 +1,113 @@
+body{
+    background-color: #fdfdfd;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color:#f25287;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+h3{
+    font-size: 1.5em;
+    font-family: 'Yeseva One', cursive;
+}
+
+.btn{
+    background-color: black;
+    color:white;
+}
+.btn:hover{
+    background-color:rgb(242, 105, 128);
+    color: black;
+}
+
+.navbar{
+    background-color: #fdfdfd;
+    overflow-x: hidden;
+}
+
+/*promo img*/
+.promo{
+    
+    width: 100%;
+    margin: 0%;
+    
+}
+/*promo carousel*/
+
+.carousel-control-next-icon{
+    background-image: url("next.png");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("left-arrow.png");
+}
+
+.carousel-title{
+    padding-top: 75px;
+    text-align: left;
+    padding-left: 127px;
+    font-size: 3em;
+}
+.carousel-title2{
+    font-size: 1.3em;
+    text-align: center;
+}
+.carousel-text{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.card {
+    border: 0px;
+}
+
+
+/*pitch info and feats*/
+.middle-txt{
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+ #features img{
+     width: 27%;
+ }
+ .row{
+     text-align: center;
+     padding: 16px;
+ }
+
+ .card-img-top{
+     height: 70%;
+ }
+
+ .sub-pitch{
+     font-size: 1.4em;
+ }
+/*footer*/
+#footer{
+    background-color: #fdfdfd;
+    padding-top: 90px;
+}
+#footer p{
+    font-size: 0.75em;
+    line-height: 0.50;
+    text-align: left;
+}
+#footer a{
+    text-align: left;
+    color: rgb(242, 105, 128);
+    
+}
+.mission{
+    line-height: 1;
+}
+
+.carousel-dark {
+    filter: none;
+  }
+
+
