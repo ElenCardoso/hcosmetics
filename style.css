@@ -2,6 +2,7 @@ body{
     background-color: #fdfdfd;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
 }
 
 h1{
@@ -24,9 +25,18 @@ h3{
 }
 
 .navbar{
-    background-color: #fdfdfd;
-    overflow-x: hidden;
+    background-color: #fdfdfddc;
+    
 }
+ul{
+    margin-top: 12px;
+}
+ li{
+     padding-right: 15px;
+     font-size: 1.2em ;
+     font-weight: 700;
+ }
+
 
 /*promo img*/
 .promo{
@@ -87,23 +97,30 @@ h3{
  .sub-pitch{
      font-size: 1.4em;
  }
+
+
+ 
 /*footer*/
-#footer{
+.footer{
     background-color: #fdfdfd;
     padding-top: 90px;
 }
-#footer p{
+.footer-content{
+    margin-right: 0%;
+}
+.footer p{
     font-size: 0.75em;
     line-height: 0.50;
-    text-align: left;
+    text-align: right;
 }
-#footer a{
-    text-align: left;
+.footer a{
+    text-align: right;
     color: rgb(242, 105, 128);
     
 }
 .mission{
     line-height: 1;
+    align-content: flex-end;
 }
 
 .carousel-dark {
